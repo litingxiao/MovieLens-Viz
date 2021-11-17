@@ -2,7 +2,7 @@
 
 This repo is for **Caltech CS155: Machine Learning and Data Mining** (2020 Winter) miniproject2. 
 
-**Goal**: create visualization plots of the MovieLens dataset using matrix factorization
+**Goal**: create visualizations of the Netflix MovieLens dataset using matrix factorization
 
 This repo contains:
 
