@@ -8,7 +8,7 @@ The MovieLens data set consists of 100,000 ratings from 943 users on 1682 movies
 
 This repo contains:
 
-- `movies.txt`: 
+- `data/movies.txt`: 
   - Each of the 1682 lines in this file contains a tab-delimited list of the following fields for a movie: 
   
   ```Movie Id, Movie Title, Unknown, Action, Adventure, Animation, Childrens, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, Western```
@@ -17,14 +17,14 @@ This repo contains:
   - There may be movies with duplicate titles but different ids in this dataset.
   - Some of the movies do not have reviews at all.
 
-- `data.txt`:
+- `data/data.txt`:
   - Each of the 100,000 lines in this file consists of a tab-delimited list of the following fields for a given rating instance:
   
   ```
   User Id, Movie Id, Rating
   ```
-  Here, all ratings are integer values ranging from 1 to 5. User ids range from 1 to 943 and movie ids range from 1 to 1682, as in `movies.txt`.
+  Here, all ratings are integer values ranging from 1 to 5. User ids range from 1 to 943 and movie ids range from 1 to 1682, as in `data/movies.txt`.
  
-- A Jupyter notebook for data processing, basic visualizations, matrix factorization and its visualizations
-- Visualization plots
-- A project report
+- `project2_viz.ipynb`: A Jupyter notebook for data processing, basic visualizations, matrix factorization and its visualizations
+- `figures`: Visualization plots
+- `report.pdf`: A project report
