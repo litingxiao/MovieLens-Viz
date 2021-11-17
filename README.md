@@ -32,8 +32,8 @@ This repo contains:
     4. All ratings of movies from three genres of choice (Drama, Horror, Fantasy).  
 
   - Matrix factorization:
-    1. Self-written code to perform matrix factorization.
-    2. Self-written code with added bias terms for each user and movie to model global tendencies of the various users and movies.
+    1. Self-written SVD
+    2. Self-written SVD with added bias terms for each user and movie to model global tendencies of the various users and movies.
     3. An off-the-shelf implementation `Surprise SVD`: http://surpriselib.com 
 
   - Matrix factorization visualizations:
